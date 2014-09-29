@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nith"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.nith.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.nith.cse_activity"
+            android:label="CSE" />
+        <activity android:name="com.example.nith.ece_activity"
+            android:label="ECE" />
+        <activity android:name="com.example.nith.show_info"
+            android:label="Info" />
+        <activity android:name="com.example.nith.cont_activity"
+            android:label="Contributors" />
+        <activity android:name="com.example.nith.show_info_ece"
+            android:label="Info" />
+        <activity android:name="com.example.nith.ced_activity"
+            android:label="CED" />
+        <activity android:name="com.example.nith.show_info_ced"
+            android:label="Info" />
+        <activity android:name="com.example.nith.eee_activity"
+            android:label="EEE" />
+        <activity android:name="com.example.nith.show_info_eee"
+            android:label="Info" />
+        <activity android:name="com.example.nith.med_activity"
+            android:label="MED" />
+        <activity android:name="com.example.nith.show_info_med"
+            android:label="Info" />
+        <activity android:name="com.example.nith.show_image" 
+            android:label="Image"/>
+    </application>
+
+</manifest>
